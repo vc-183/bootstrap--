@@ -1,0 +1,52 @@
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    
+}
+
+p{margin: 0 0 2px;}
+/* 头像的width/height */
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+/* taglist */
+.taglist{
+    padding-top: 15px;
+}
+ .taglist .alert{
+margin: 0 15px 15px 0;
+
+ }
+/* 边距 */
+.mar-t15{
+    margin-top: 15px;
+
+}
+
+/* padding */
+.pad0{
+    padding: 0;
+}
+/* pange-header */
+.page-header{
+    margin-top: 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+    
+}
+
+/* user-search */
+.user-search{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+/* footer */
+footer{
+    font-weight: 400;
+    padding: 20px;
+}

@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.maizi.css">
+</head>
+
+<body>
+    <nav class="nav navbar-default  ">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">MaiZi Admin</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ">
+                    <!-- active 选中效果 -->
+                    <li><a href="index.html">
+                            <spna class="glyphicon glyphicon-home">&nbsp;</spna>
+                            后台首页
+                        </a></li>
+                    <li><a href="user_list.html">
+                            <spna class="glyphicon glyphicon-user">&nbsp;</spna>用户管理
+                        </a></li>
+                    <li class="active"><a href="content.html">
+                            <spna class="glyphicon glyphicon-list-alt">&nbsp;</spna>内容管理
+                        </a></li>
+                    <li><a href="tag.html">
+                            <spna class="glyphicon glyphicon-tag">&nbsp;</spna>
+                            标签管理
+                        </a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="true">
+                            admin
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">
+                            <spna class="">&nbsp;</spna>
+                        </a></li>
+                    <li><a href="#">
+                            <spna class="glyphicon glyphicon-off">&nbsp;</spna>退出
+                        </a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="list-group">
+                    <a href="content.html" class="list-group-item ">管理内容</a>
+                    <a href="content_post.html
+                    " class="list-group-item active">添加内容</a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <div class="page-header">发布文章</div>
+                <ul class="nav-tabs nav ">
+                    <li class="">
+                        <a href="content.html">文章列表</a></li>
+                    <li class="active"><a href="content_post.html">添加内容</a></li>
+
+                </ul>
+                <form action="#" class=" mar-t15">
+                    <div class="form-group">
+                        <label for="title">标题</label>
+                        <input type="text" class="form-control" id="title" placeholder="请输入文章标题">
+                    </div>
+                    <div class="form-group"><label for="content">文章正文</label>
+                        <textarea name="" cols="30" rows="10" id="content" class="form-control" placeholder="请输入正文部分"></textarea>
+                    </div>
+                
+                        <div class="checkbox"  class="pull-left">
+                            <label class="form-check-label">
+                                <input type="checkbox"  name="" id="" value="checkedValue"
+                                    checked>
+                                全局置顶
+                            </label>
+                            <button class="btn btn-default pull-right" type="submit" >发布文章</button>
+                        </div>
+                       
+                  
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="container text-center">
+        <div class="row">
+            <div class="col-md-12">Copyrigh&nbsp; © &nbsp;2012-2015&nbsp; www.maiziedu.com &nbsp; 蜀ICP备13014370号-4</div>
+        </div>
+    </footer>
+    <!-- footer -->
+    <script src="lib/js/jquery-3.4.1.js"></script>
+    <script src="lib/js/popper.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+</body>
+
+</html>
